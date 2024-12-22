@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Ride</title>
+    <link rel="stylesheet" href="bike.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Book Your Ride</h2>
+        <form id="bookingForm">
+            <label for="pickup">Pickup Location</label>
+            <input type="text" id="pickup" name="pickup" required>
+
+            <label for="dropoff">Dropoff Location</label>
+            <input type="text" id="dropoff" name="dropoff" required>
+
+            <label for="phone">Your Contact Number</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <button type="button" onclick="bookRide()">Confirm Booking</button>
+            <p id="error-message"></p>
+        </form>
+    </div>
+    <script src="bike.js"></script>
+</body>
+</html>
