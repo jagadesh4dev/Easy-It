@@ -17,8 +17,8 @@ function validateForm() {
     const errorMessage = document.getElementById("error-message");
 
     // Predefined username and password
-    const validUsername = "sharan";
-    const validPassword = "21113063";
+    const validUsername = "monika";
+    const validPassword = "21113115";
 
     if (!username || !password) {
         errorMessage.textContent = "Please fill out both fields.";
